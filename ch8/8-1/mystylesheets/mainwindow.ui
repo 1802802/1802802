@@ -14,42 +14,29 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QPushButton:hover   
-{
-	background-color: rgb(255, 85, 0);
-	font: 75 12pt &quot;Times New Roman&quot;;
-	background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
-}
-QSlider:hover
-{
-	background-color: rgb(255, 170, 0);
-}
-QComboBox::drop-down:hover
-{
-	background-color: rgb(170, 0, 127);
-}</string>
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>60</y>
+      <x>80</x>
+      <y>50</y>
       <width>151</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>换肤</string>
     </property>
    </widget>
    <widget class="QSlider" name="horizontalSlider">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>130</y>
-      <width>160</width>
-      <height>22</height>
+      <x>60</x>
+      <y>180</y>
+      <width>281</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="orientation">

@@ -29,3 +29,10 @@ SOURCES += main.cpp\
 HEADERS  += mainwindow.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    myresource.qrc
+
+DISTFILES += \
+    my.qss \
+    my1.qss
