@@ -29,7 +29,7 @@ Widget::~Widget()
 
 void Widget::paintEvent(QPaintEvent *)
 {
-    QPainter painter(this);
+    QPainter painter(this);     //顺便一提，这张图太小了，窗口的边框界面无法绘制出来
     painter.drawPixmap(0,0,QPixmap(":/image/yafeilinux.png"));  //从左上角开始绘制
 }
 
